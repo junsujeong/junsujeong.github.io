@@ -11,9 +11,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<!-- css -->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
 	</head>
 	<body class="is-preload">
-
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 		<!-- Header -->
 		<header id="header">
 			<div class="inner">
@@ -57,59 +58,82 @@
 				</section>
 
 				<!-- Two -->				
-				
-				<!-- Three -->
 				<section id="two">
-					<h2>Legacy Work</h2>
+					<header class="major">
+						<h2>Code for Web</h2>
+					</header>
+				</section>			
+				<!-- Three -->
+				<section id="three">
+					<h2>Some Projects</h2>
 					<div class="row">
 						<article class="col-6 col-12-xsmall work-item">
-							<a href="images/fulls/1.jpg" class="image fit thumb"><img src="images/thumbs/1.jpg" alt="" /></a>
-							<h3>hotoresistor server</h3>
-							<p>Developing a photo resistor server that controls RGB LED brightness.</p>
+							<div class="tech">
+								<a href="images/fulls/2.jpg" class="image fit thumb"><img src="images/thumbs/2.jpg" alt="" /></a>
+								<a class="git-Link" href="https://github.com/junsujeong/The-Royal-Game-of-Ur" target="_blank"><h3>The Royal Game of Ur <i class="fa fa-external-link"></i></h3></a>
+								<p class="project-description">Ancient board game called Royal Game of Ur, developed in team.</p>
+								<h5>Technology Used:</h5>
+								<span>C#</span>
+								<span>Xamarin</span>
+								<span>GCOV</span>
+								<span>Visual Studio</span>
+							</div>
+						</article>						
+						<article class="col-6 col-12-xsmall work-item">
+							<div class="tech">
+								<a href="images/fulls/1.jpg" class="image fit thumb"><img src="images/thumbs/1.jpg" alt="" /></a>
+								<h3>Photoresistor server</h3>
+								<p class="project-description">Developing a photo resistor server that controls RGB LED brightness.</p>
+								<h5>Technology Used:</h5>
+								<span>Node.JS</span>
+								<span>raspberry pi</span>
+								<span>Bluetooth</span>
+								<span>MySQL</span>
+							</div>
+						</article>
+
+						<article class="col-6 col-12-xsmall work-item">
+							<div class="tech">							
+								<a href="images/fulls/3.jpg" class="image fit thumb"><img src="images/thumbs/3.jpg" alt="" /></a>
+								<a class="git-Link" href="https://github.com/junsujeong/Bot-War-on-Android" target="_blank"><h3>Bot War on Android<i class="fa fa-external-link"></i></h3></a>
+								<p class="project-description">Android game devloped using C++.</p>
+								<h5>Technology Used:</h5>
+								<span>C++</span>
+								<span>Android Native Activity</span>
+								<span>Visual Studio</span>
+							</div>
 						</article>
 						<article class="col-6 col-12-xsmall work-item">
-							<a href="images/fulls/2.jpg" class="image fit thumb"><img src="images/thumbs/2.jpg" alt="" /></a>
-							<h3>The Royal Game of Ur</h3>
-							<p>Ancient board game called Royal Game of Ur, developed in team of 5.</p>
+							<div class="tech">						
+								<a href="images/fulls/4.jpg" class="image fit thumb"><img src="images/thumbs/4.jpg" alt="" /></a>
+								<a class="git-Link" href="https://github.com/junsujeong/Computer-Network-Prog4" target="_blank"><h3>Ping Server<i class="fa fa-external-link"></i></h3></a>
+								<p class="project-description">Network project communicating between client and server.</p>
+								<h5>Technology Used:</h5>
+								<span>JAVA</span>
+								<span>HTTP</span>
+							</div>
 						</article>
 						<article class="col-6 col-12-xsmall work-item">
-							<a href="images/fulls/3.jpg" class="image fit thumb"><img src="images/thumbs/3.jpg" alt="" /></a>
-							<h3>Bot War on Android</h3>
-							<p>Android game devloped using C++.</p>
-						</article>
-						<article class="col-6 col-12-xsmall work-item">
-							<a href="images/fulls/4.jpg" class="image fit thumb"><img src="images/thumbs/4.jpg" alt="" /></a>
-							<h3>Ping Server</h3>
-							<p>My Ping Server running on different devices implemented with JAVA.</p>
-						</article>
-						<article class="col-6 col-12-xsmall work-item">
-							<a href="images/fulls/5.jpg" class="image fit thumb"><img src="images/thumbs/5.jpg" alt="" /></a>
-							<h3>Router Authentication using</h3>
-							<p>Router Authentication using phone message.</p>
+							<div class="tech">						
+								<a href="images/fulls/5.jpg" class="image fit thumb"><img src="images/thumbs/5.jpg" alt="" /></a>
+								<h3>Router Authentication using</h3>
+								<p class="project-description">Router Authentication using phone message.</p>
+								<h5>Technology Used:</h5>
+								<span>HTML</span>
+								<span>CSS</span>
+								<span>AJAX</span>
+								<span>JavaScript</span>
+							</div>
 						</article>
 					</div>
-					<!--
-					<ul class="actions">
-						<li><a href="#" class="button">Full Portfolio</a></li>
-					</ul>
-					-->
 				</section>
 				<!-- Four -->
-				<section id="three">
+				<section id="four">
 					<h2>Interested?</h2>
 					<p>We can connect to find out how I can help you</p>
 					<div class="row">
 						<div class="col-8 col-12-small">
-							<form method="post" action="#">
-								<div class="row gtr-uniform gtr-50">
-									<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" required/></div>
-									<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" required/></div>
-									<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4" required></textarea></div>
-								</div>
-							</form>
-							<ul class="actions">
-								<li><input type="submit" value="Send Message" /></li>
-							</ul>
+							<?php include "assets/php/contact.php" ?>
 						</div>
 						<div class="col-4 col-12-small">
 							<ul class="labeled-icons">
@@ -455,6 +479,5 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
-
 	</body>
 </html>
