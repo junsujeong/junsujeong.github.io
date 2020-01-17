@@ -14,7 +14,7 @@
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
 	</head>
 	<body class="is-preload">
-		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+		<button type="button" id="toTop">Top</button>
 		<!-- Header -->
 		<header id="header">
 			<div class="inner">
@@ -26,12 +26,26 @@
 			<!-- Footer -->
 			<footer id="footer">
 				<div class="inner">
+					<ul class="labeled-icons">
+						<li>
+							<h3 class="icon solid fa-home"><span class="label">Address</span></h3>Madison, Wisconsin
+						</li>
+						<li>
+							<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
+							608-642-4879
+						</li>
+						<li>
+							<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+							<a href="#">junsu852@gmail.com</a>
+						</li>
+					</ul>
 					<ul class="icons">
 						<li><a href="https://codepen.io/junsujeong" class="icon brands fa-codepen" target="_blank"><span class="label">Instagram</span></a></li>						
 						<li><a href="https://github.com/junsujeong" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
 						<li><a href="https://www.linkedin.com/in/jun-jeong/" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
 						<li><a href="https://www.instagram.com/im_jun_jeong/" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
 					</ul>
+					
 					<ul class="copyright">
 						<li>&copy; Junsu Jeong</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
@@ -52,8 +66,8 @@
 					   Specialized in writing frameworks and scripts for test automation and CI/CD pipeline.
 					</p>
 					<ul class="actions">
-						<li><a href="files/Resume_JunsuJeong_2020.pdf" class="button" target="_blank">RESUME</a></li>
-						<li><li><a href="https://github.com/junsujeong" class="button" target="_blank">GIT HUB</a></li>
+						<li><a href="files/Resume_JunsuJeong_2020.pdf" class="button primary icon solid fa-download" target="_blank">RESUME</a></li>
+						<li><li><a href="https://github.com/junsujeong" class="button icon brands fa-github" target="_blank">GIT HUB</a></li>
 					</ul>
 				</section>
 
@@ -127,44 +141,9 @@
 						</article>
 					</div>
 				</section>
-				<!-- Four -->
-				<section id="four">
-					<h2>Interested?</h2>
-					<p>We can connect to find out how I can help you</p>
-					<div class="row">
-						<div class="col-8 col-12-small">
-							<form method="post" action="#">
-								<div class="row gtr-uniform gtr-50">
-									<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" required/></div>
-									<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" required/></div>
-									<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4" required></textarea></div>
-								</div>
-							</form>
-							<ul class="actions">
-								<li><input type="submit" value="Send Message" /></li>
-							</ul>
-						</div>
-						<div class="col-4 col-12-small">
-							<ul class="labeled-icons">
-								<li>
-									<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
-									Madison, Wisconsin
-								</li>
-								<li>
-									<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
-									608-642-4879
-								</li>
-								<li>
-									<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-									<a href="#">junsu852@gmail.com</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-			</section>
 
-			<!-- Four -->
-			<!--
+
+<!--
 				<section id="four">
 					<h2>Elements</h2>
 
@@ -461,25 +440,25 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 						<h5>Fit</h5>
 						<div class="box alt">
 							<div class="row gtr-50 gtr-uniform">
-								<div class="col-12"><span class="image fit"><img src="images/fulls/05.jpg" alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src="images/thumbs/04.jpg" alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src="images/thumbs/05.jpg" alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src="images/thumbs/06.jpg" alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
+								<div class="col-12"><span class="image fit"><img src="images/fulls/5.jpg" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/thumbs/1.jpg" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/thumbs/2.jpg" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/thumbs/3.jpg" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/thumbs/4.jpg" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/thumbs/5.jpg" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/thumbs/6.jpg" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/thumbs/3.jpg" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/thumbs/2.jpg" alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/thumbs/1.jpg" alt="" /></span></div>
 							</div>
 						</div>
 						<h5>Left &amp; Right</h5>
 						<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
 						<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
 					</section>
-
+-->
 				</section>
-			-->
+
 
 		<!-- Scripts -->
 		<script src="assets/js/jquery.min.js"></script>
@@ -488,5 +467,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
+		<script src="assets/js/scroll.js"></script>
 	</body>
 </html>
